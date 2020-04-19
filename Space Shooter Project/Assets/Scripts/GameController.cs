@@ -140,6 +140,7 @@ public class GameController : MonoBehaviour
             if (winCounter == 1)
             {
                 musicSource.clip = musicClipOne;
+                musicSource.volume = .25f;
                 musicSource.Play();
                 musicSource.loop = true;
             }
