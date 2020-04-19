@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-Editor.dll:
+    - ReadmeEditor
     Assembly-CSharp.dll:
     - BGScroller
     - DestroyByBoundary
@@ -12,10 +14,10 @@ ScriptsOnlyBuild:
     - PlayerController
     - PowerUp
     - RandomRotator
+    - Readme
     - WeaponController
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -85,13 +87,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 10988}
     - Class: 114
-      Script: {instanceID: 11182}
+      Script: {instanceID: 11180}
     - Class: 114
-      Script: {instanceID: 11284}
+      Script: {instanceID: 11282}
     - Class: 114
-      Script: {instanceID: 11302}
+      Script: {instanceID: 11300}
     - Class: 114
-      Script: {instanceID: 11550}
+      Script: {instanceID: 11548}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -718,5 +720,5 @@ ScriptsOnlyBuild:
   platform: 5
   scenePathNames:
   - Assets/Scenes/Space Shooter.unity
-  playerPath: C:/Users/Wag/Documents/GitHub/Challenge-3/Space Shooter Project/Builds/Space
+  playerPath: C:/Users/Wag/Documents/GitHub/DIG3480Final/Space Shooter Project/Builds/Space
     Shooter Project.exe
