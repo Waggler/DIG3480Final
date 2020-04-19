@@ -151,10 +151,10 @@ public class GameController : MonoBehaviour
     }
     IEnumerator BGZoom()
     {
-        while (background.GetComponent<BGScroller>().scrollSpeed > -80f)
+        while (background.GetComponent<BGScroller>().scrollSpeed > -60f)
         {
             yield return new WaitForSeconds(BGTimer);
-            background.GetComponent<BGScroller>().scrollSpeed *= 1.01f;
+            background.GetComponent<BGScroller>().scrollSpeed *= 1.51f;
             yield return background;
         }
     }
